@@ -1,0 +1,544 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1186
+  viewPortHeight: 762
+  currentZoom: 2.0736
+  horizontalOffset: 540
+  verticalOffset: -59
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - 2024-02-07T02:07:24.035Z
+        - 2024-02-07T02:07:24.035Z
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - 2024-02-07T02:07:24.035Z
+        - 2024-02-07T02:07:24.035Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-07T02:07:24.035Z
+        - 2024-02-07T02:07:24.035Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-07T02:07:24.035Z
+        - 2024-02-07T02:07:24.035Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2024-02-07T02:07:24.035Z
+        - 2024-02-07T02:07:24.035Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 762
+connectors:
+  - id: Orthogonal ConnectorMFOfk
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 515
+      y: 194
+    targetPoint:
+      x: 389
+      y: 138
+    sourceID: FirestoreDOpbB
+    targetID: FirebaseQLN0O
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Orthogonal ConnectorO6sJc
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 515
+      y: 194
+    targetPoint:
+      x: 641
+      y: 140
+    sourceID: FirestoreDOpbB
+    targetID: CustomtVtvl
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal ConnectorqfigK
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 515
+      y: 194
+    targetPoint:
+      x: 515
+      y: 122
+    sourceID: FirestoreDOpbB
+    targetID: FlutterFlowJylO2
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_Black_87_saom5b.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_x1bnu1.png);"></div><div
+        class="c-text"><div class="c-title">Firestore</div><div
+        class="c-short-description">Databases, collections, documents,...
+        (regardless of the frontend technology using Firestore)</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: FirestoreDOpbB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Firestore
+        shortDescription: Databases, collections, documents,... (regardless of the
+          frontend technology using Firestore)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Firestore
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Firestore
+      editableName: Firestore
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Firestore
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_x1bnu1.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore__044448_bcoxbo.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_Black_87_saom5b.png
+      color: "#3871e0"
+      controlText: Firestore
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 373.99999999999994
+    height: 100
+    offsetX: 515
+    offsetY: 244
+    zIndex: 0
+    outEdges:
+      - Orthogonal ConnectorMFOfk
+      - Orthogonal ConnectorO6sJc
+      - Orthogonal ConnectorqfigK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/Firebase_Black_87_sr3wf7.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/Firebase_s2cwtg.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Firebase</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: FirebaseQLN0O
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Firebase
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Firebase
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Firebase
+      editableName: Firebase
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Firebase
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/Firebase_s2cwtg.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/Firebase__044448_did7x8.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/Firebase_Black_87_sr3wf7.png
+      color: "#3871e0"
+      controlText: Firebase
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 389
+    offsetY: 76
+    zIndex: 1
+    inEdges:
+      - Orthogonal ConnectorMFOfk
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4B39EF; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1698749708/sds_logos/FlutterFlow_Black_87_fa2jss.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/FlutterFlow_tppz9t.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>FlutterFlow</div></div><hr class="c-underrule"
+        style="background-color: #4B39EF"></div>'
+    id: FlutterFlowJylO2
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: FlutterFlow
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: FlutterFlow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: FlutterFlow
+      editableName: FlutterFlow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+      name: FlutterFlow
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/FlutterFlow_tppz9t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749707/sds_logos/FlutterFlow__044448_ro4z6r.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1698749708/sds_logos/FlutterFlow_Black_87_fa2jss.png
+      color: "#4B39EF"
+      controlText: FlutterFlow
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 515
+    offsetY: 60
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorqfigK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: rgb(38,38,38);
+        border-radius: 10px"><div class="c-container"><div
+        class="c-image-primary" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/gear_bulb_Black_87_V2_s0pp3u.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://framerusercontent.com/images/e7I7yyT2ZtTobIj3jMFrmHEEI.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>BuildShip</div></div><hr class="c-underrule"
+        style="background-color: rgb(38,38,38)"></div>'
+    id: CustomtVtvl
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Custom
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Custom
+      status: N/A
+      size: sm
+      nodeType: html
+      title: BuildShip
+      editableName: BuildShip
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Custom
+      category: 5
+      imgUrl: https://framerusercontent.com/images/e7I7yyT2ZtTobIj3jMFrmHEEI.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/gear_bulb__044448_V2_ry5xse.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/gear_bulb_Black_87_V2_s0pp3u.png
+      controlText: BuildShip
+      color: rgb(38,38,38)
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 641
+    offsetY: 78
+    zIndex: 3
+    inEdges:
+      - Orthogonal ConnectorO6sJc
+selectedItems:
+  width: 0
+  height: 0
